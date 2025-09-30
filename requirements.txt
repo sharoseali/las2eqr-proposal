@@ -1,0 +1,13 @@
+# Core dependencies for LAS to Equirectangular Depth Map conversion
+laspy==2.5.3          # LAS/LAZ file I/O
+numpy==1.26.4         # Array operations and numerical computing
+scipy==1.11.4         # Scientific computing (inpainting filters)
+tifffile==2024.2.12   # TIFF file I/O for depth maps
+
+# Optional visualization dependencies (recommended for verification)
+matplotlib==3.8.3     # Plotting and visualization
+Pillow==10.2.0        # Image processing for preview generation
+
+# Development dependencies (optional)
+# pytest==8.0.0       # Unit testing
+# black==24.2.0       # Code formatting
